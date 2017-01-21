@@ -1,9 +1,12 @@
 ﻿HTML5 Boilerplate
 ===================
 
-Autores dos capítulos:
-Deborah Mendes
-Igor Lima
+###Autores: 
+
+Deborah Mendes 
+
+Igor Lima 
+
 Markelly Sousa
 
 
