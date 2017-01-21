@@ -1,6 +1,22 @@
 ﻿HTML5 Boilerplate
 ===================
 
+Autores dos capítulos:
+Deborah Mendes
+Igor Lima
+Markelly Sousa
+
+
+Sumário
+-------------
+Introdução
+Criadores
+Frameworks e Ferramentas
+Evolução
+Estrutura
+Conclusão
+Referências
+
 
 Introdução
 -------------
@@ -9,14 +25,14 @@ O HTML5 Boilerplate é um conjunto de arquivos de código aberto, disponível pa
 
 O template tem bastante aceitação, desde desenvolvedores iniciantes até os mais experientes, pois fornece uma base front-end completa para codificação de um site rápido e robusto em HTML5. Existe uma opção simplificada que é mais leve e uma outra opção personalizada, onde você poderá selecionar o conjunto de funcionalidades que melhor irá atendê-lo.
 
-Nos últimos anos observou-se que havia muita dependência do Bootstrap, dessa forma surgiram muitos sites semelhantes. O Boilerplate, por sua vez, tem maior flexibilidade, assim, você que possui um conhecimento mais avançado está livre para desenvolver aplicações que atendam melhor às suas necessidades. O Boilerplate foi construído por profissionais da indústria de software, porém, está disponível para toda a comunidade de desenvolvedores. Quando baixado, fornece ao desenvolvedor toda a documentação e licença em formato Markdown duas imagens de espaço reservado, dois arquivos HTML, alguns JavaScript e alguns arquivos de configuração do servidor.
+Nos últimos anos observou-se que havia muita dependência do Bootstrap, dessa forma surgiram muitos sites semelhantes. O Boilerplate, por sua vez, tem maior flexibilidade, assim, você que possui um conhecimento mais avançado está livre para desenvolver aplicações que atendam melhor às suas necessidades. O Boilerplate foi construído por profissionais da indústria de software, porém, está disponível para toda a comunidade de desenvolvedores. Quando baixado, fornece ao desenvolvedor toda a documentação e licença em formato Markdown, duas imagens de espaço reservado, dois arquivos HTML, alguns JavaScript e alguns arquivos de configuração do servidor.
 
 
-Autores
+Criadores
 -------------
 O HTML5 Boilerplate foi criado por Paul Irish e Divya Manian, e é um projeto de código aberto que é perfeito para a criação de sites cross-browser que funcionam com navegadores mais antigos, sendo HTML5 pronto.
 
-Paul Irish é desenvolvedor front-end da Google, trabalhando com o Google Chrome, focado na equipe de desenvolvimento Tooling. Segundo ele, o projeto para o HTML5 Boilerplate se arrastou durante dois ano e meio, sendo ativado e reativado neste período, ate que enfim, em meados de 2011 o projeto saiu do papel e foi lançado para a comunidade desenvolvedora.
+Paul Irish é desenvolvedor front-end da Google, trabalhando com o Google Chrome, focado na equipe de desenvolvimento Tooling. Segundo ele, o projeto para o HTML5 Boilerplate se arrastou durante dois anos e meio, sendo ativado e reativado neste período, até que enfim, em meados de 2011 o projeto saiu do papel e foi lançado para a comunidade desenvolvedora.
 
 Divya Manian estudou Engenharia de Computação, em Cingapura. Ela abandonou sua confortável primeira escolha de carreira como desenvolvedor de driver de dispositivo da Motorola para se tornar designer de in-house em uma inicialização e depois ir freelance. No meio de uma crise trimestre de vida, ela decidiu buscar tecnologias web com devoção sincera, levando a projectos de colaboração, tais como HTML5 Boilerplate.
 
@@ -252,7 +268,7 @@ Figura 4: Página acessada através do dispositivo um notebook de 14”
 
 ###JS
 
-No diretório JS, podem ser armazenados arquivos JS, bibliotecas e plugins; ele também possui arquivos com código pré existente que servirá de apoio no início do desenvolvimento. Como citado antes, é utilizado o jQuery para manipular o JS do projeto de forma simples. O jQuery é uma biblioteca amplamente utilizada em vários locais justamente pela simplicidade e pelo comum uso.
+No diretório JS, podem ser armazenados arquivos JS, bibliotecas e plugins; ele também possui arquivos com código pré existente que serve de apoio no início do desenvolvimento. Como citado antes, é utilizado o jQuery para manipular o JS do projeto de forma simples. O jQuery é uma biblioteca amplamente utilizada em vários locais justamente pela simplicidade e pelo comum uso.
 
 [![](https://2.bp.blogspot.com/-9IaJK-pamfI/V_7aJ2VC9mI/AAAAAAAAB_g/zyCf7i62bII19RHVt1odqa5PKKjvLZrWwCLcB/s320/html5%2Bmarcas%2Bcorp.jpg)]()
 
@@ -343,6 +359,18 @@ Com H5BP é possível usar os favicons (ou ícones de toque) em diferentes varia
 
 Figura 7: Tamanhos dos favicons
 
+Extensão e customização
+-------------
+O HTML5 Boilerplate pode ser extendido e customizado para atender a necessidades distintas: App Stores, DNS prefetching, Google Universal Analytics, Internet Explorer, Miscellaneous, News Feeds, Search, Social Networks, URLs e Web Apps. Segue uma breve descrição de dicas úteis:
+
+####DNS prefetching
+Recurso que permite informar o navegador de nomes de domínio referenciados em um site para que o cliente possa determinar o DNS para esses hosts, armazená-los em cache, e requisitá-los quando necessário.
+
+####Internet Explorer
+O IE10 não suporta alguns plugins, como o Flash, por exemplo. Se o seu site necessitar de plugins não suportados pelo IE10, você pode informar isso os usuários de diversas formas.
+
+####Social Networks
+Fornece controle de informações compartilhadas através de redes sociais, como Facebook, Twitter e Google Plus.
 
 Sites criados através do HTML5 Boilerplate
 -------------
@@ -378,10 +406,22 @@ Figura 11: Outra variação de uso do HTML5 para um site de compras.
 
 Figura 12: Uma página de vídeos HTML5 em código aberto.
 
+Concorrentes
+-------------
+Os principais concorrentes do HTML5 Boilerplate são: Bootstrap, Foundation3 e Semantic UI.
+
+####Bootstrap
+É considerado o framework HTML, CSS, e JS mais popular. Utiliza CSS tradicional, mas seu código fonte utiliza também Less e Sass. Possui uma documentação bem detalhada e uma grande diversidade de componentes em Javascript. 
+
+####Foundation3
+Trata-se de um framework front-end responsivo, construído com Sass e que possui uma série de recursos. Os elementos mais importantes são: Grade, Detalhes, Tipografia, Navegação, Elementos UI, Guias, Orbit e Pop-up. É um projeto de código aberto, desenvolvido pela Zurb.
+
+####Semantic UI
+Este framework utiliza princípios de linguagem natural, tornando o código muito mais legível e compreensível. Sua documentação é bem organizada, fornece apoio a desenvolvedores iniciantes.
 
 Conclusão
 -------------
-Se tratando de arquitetura, observa-se que o HTML em abriu portas para interfaces independentes de dispositivos e o H5BP, sendo uma ramificação do HTML, herda isto, esta facilidade de transitar em diversos dispositivos com qualidade e sem problemas de conformidade. Observa-se que juntamente com as bibliotecas de componentes de interface gráfica nativas do HTML5 e os acréscimos que a versão Boilerplate trouxe, fornece um modo que independe do dispositivo que será utilizado, para criar interfaces móveis com o Javascript através do JQuery. 
+Em relação a arquitetura, observa-se que o HTML abriu portas para interfaces independentes de dispositivos e o H5BP, sendo uma ramificação do HTML, herda isto, esta facilidade de transitar em diversos dispositivos com qualidade e sem problemas de conformidade. Observa-se que juntamente com as bibliotecas de componentes de interface gráfica nativas do HTML5 e os acréscimos que a versão Boilerplate trouxe, fornece um modo que independe do dispositivo que será utilizado para criar interfaces móveis com o Javascript através do JQuery. 
 
 O HTML5 Boilerplate é um sistema interessantíssimo e amplamente utilizados por desenvolvedores web para sites e aplicações. Os recursos trazidos pelo sistema e a qualidade com que é entregue atrai não só a atenção dos desenvolvedores, mas também dos próprios clientes, como podemos visualizar nos vários exemplos.
 
@@ -391,7 +431,12 @@ O HTML5 Boilerplate é um sistema interessantíssimo e amplamente utilizados por
 Referências
 -------------
 BUTTERS, K. An Introduction to HTML5 Boilerplate. Disponível em <https://www.sitepoint.com/introduction-html5-boilerplate/>. Acesso em 09 out 2016.
+
 GRANNELL, C. How to use an HTML boilerplate. Disponível em <http://www.creativebloq.com/web-design/how-use-html-boilerplate-11513798>. Acesso em 09 out 2016.
+
 SILVEIRA, F. Initializr – Comece Seu Projeto HTML5 Em 15 Segundos! Disponível em <http://flaviosilveira.com/2011/initializr-comece-seu-projeto-html5-em-15-segundos/>. Acesso em 09 out 2016.
+
 IRISH, P. HTML5 Boilerplate Hits 2.0! Disponível em: <https://www.paulirish.com/2011/html5-boilerplate-hits-2-0/>. Acesso em 09 out 2016.
+
 HANS, C. HTML5 Boilerplate Favicon PSD-Template. Disponível em https://drublic.de/archive/html5-boilerplate-favicons-psd-template/. Acesso em 12 de Out 2016
+
