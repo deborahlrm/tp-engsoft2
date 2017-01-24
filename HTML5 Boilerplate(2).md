@@ -37,7 +37,7 @@ O HTML5 Boilerplate foi criado por Paul Irish e Divya Manian, e é um projeto de
 
 Paul Irish é desenvolvedor front-end da Google, trabalhando com o Google Chrome, focado na equipe de desenvolvimento Tooling. Segundo ele, o projeto para o HTML5 Boilerplate se arrastou durante dois anos e meio, sendo ativado e reativado neste período, até que enfim, em meados de 2011 o projeto saiu do papel e foi lançado para a comunidade desenvolvedora.
 
-Divya Manian estudou Engenharia de Computação, em Cingapura. Ela abandonou sua confortável primeira escolha de carreira como desenvolvedor de driver de dispositivo da Motorola para se tornar designer de in-house em uma inicialização e depois ir freelance. No meio de uma crise trimestre de vida, ela decidiu buscar tecnologias web com devoção sincera, levando a projectos de colaboração, tais como HTML5 Boilerplate.
+Divya Manian estudou Engenharia de Computação, em Cingapura. Ela abandonou sua confortável primeira escolha de carreira como desenvolvedor de driver de dispositivo da Motorola para se tornar designer de in-house em uma inicialização e depois ir freelance. No meio de uma crise de vida, ela decidiu buscar tecnologias web com devoção sincera, levando a projectos de colaboração, tais como HTML5 Boilerplate.
 
 [![](https://4.bp.blogspot.com/-CAgytPaoAho/V_7aHnc4XfI/AAAAAAAAB_A/Glxsjq_vh5wm5lvcI9pyMhy00bwgI5gxQCLcB/s1600/Autor1.jpg)]()
 
@@ -53,6 +53,7 @@ Frameworks e Ferramentas
 -------------
 HTML5 Boilerplate inclui ferramentas muito úteis, as principais são Initializr, Modernizr, e JQuery. Mas também existem outras de menor importância como um Profiling JQuery, Código Google Analytics e funções Javascript para login.
 
+###Ferramentas
 Initializr é um gerador de código baseado no Boilerplate para iniciar um projeto em HTML5. O gerador permite criar um projeto rápido e confiável, porém com um código mais leve, pois não engloba ferramentas raramente usadas com HTML5. Initializr fornece também diversas opções para customizar os templates.
 
 O Initializr permite gerar conteúdos para auxiliar na construção das páginas. Ele também inclui a biblioteca jQuery, uma biblioteca javascript essencial, disponível em forma minimizada ou não.
@@ -104,7 +105,7 @@ O HTML5 Boilerplate possui várias releases desde a sua primeira versão lançad
 - Remover margens a partir de listas dentro de elementos nav.
 - Remover YUI profiling.
 
-Após a versão v.1.0 de lançamento, o H5BP sofreu várias melhorias, transformadas em releases de lançamento para o uso de toda a comunidade de desenvolvedores, interessados em aperfeiçoar sites e criar novos sites que a ferramenta apresenta.
+Após a versão v.1.0 de lançamento, o H5BP sofreu várias melhorias, transformadas em releases de lançamento para o uso de toda a comunidade de desenvolvedores interessados em aperfeiçoar e criar novos sites com as funcionalidades que a ferramenta apresenta.
 Abaixo uma tabela com todas as releases lançadas para o H5BP. As principais mudanças serão descritas posteriormente.
 
 Versão  | Mudanças expressivas? | Ano
@@ -149,6 +150,8 @@ Abaixo a descrição das principais melhorias em cada uma das versões, que trou
 - Muitas melhorias .htaccess, incluindo: desabilitar a pesquisa no diretório, suporte melhorado para todas as versões do Apache, as regras de compressão HTTP mais robustos e extensos;
 - Remoção do handheld.css, por ter uma baixa qualidade em suporte a dispositivos;
 
+Nesta versão a principal mudança foi a possibilidade de melhorar a utilização das ferramentas Modernizr e da integração ao prompt de script de quadro do google chrome, o que permitia o desenvolvimento em comum para os dois navegadores, chrome e IE6, seguindo o padrão de desenvolvimento. Esta versão também foi essencial por ter sido a primeira release após o lançamento oficial da ferramenta. Foi cercada de grandes expectativas.
+
 **v.3.0**:
 - Melhorias no .htaccess;
 - Melhorias no design do erro 404;
@@ -159,6 +162,8 @@ Abaixo a descrição das principais melhorias em cada uma das versões, que trou
 - Remoção do Respond.js;
 - Ativação por padrão do rastreamento de velocidade do site explícita para o Google Analytics.
 
+Nesta versão os erros 404 tiveram mudança de design, além da integração total com o Google Analytics.
+
 **v.4.0.**:
 - Melhorias na configuração do Apache;
 - Adicionar licença MIT (a saber, a licença MIT é uma permissão, concedida gratuitamente a qualquer pessoa que obtenha uma cópia de um respectivo software e documentação associada para lidar com o software sem restrições e sem limitações, usufruindo dos direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e / ou vender cópias do software, sendo que a pessoa que utiliza o software está sujeita a um conjunto de regras);
@@ -166,12 +171,16 @@ Abaixo a descrição das principais melhorias em cada uma das versões, que trou
 - Melhoria na proteção do console.log;
 - Renomear arquivos CSS e renomear arquivos JS e subdiretórios.
 
+A licença MIT foi a principal conquista do H5BP. Através dela, qualquer pessoa poderia utilizar os recursos do H5BP em sua totalidade, sem restrições, colaborando e aperfeiçoando as melhorias para as próximas releases.
+
 **v.4.2.0**:
 
 - Remoção do Google Analytics protocol checks;
 - Atualização para Normalize.css 1.1.1.
 - Configurações de atualização do Apache para incluir as últimas alterações na .htaccess;
 - Utilização de uma URL relativa para o script modelo 404.
+
+A remoção das validações de protocolo foi a grande mudança para esta versão do H5BP, visto que facilitaria o desenvolvimento. Além disso, foi criada uma URL separada para os erros do script modelo 404 (erro "page not found").
 
 **v.4.3.0**:
 - Atualização para Servidor Apache Configs 1.1.0;
@@ -189,12 +198,16 @@ Abaixo a descrição das principais melhorias em cada uma das versões, que trou
 
 Estrutura
 -------------
+###Template
 
 O template possui uma estrutura padrão que pode ser alterada. 
 
 [![](https://2.bp.blogspot.com/-dMwPJCf2tk4/V_7aJamKgfI/AAAAAAAAB_c/35LIqCrz0CkXtZM7uHTAaPbboMvj7i6DwCLcB/s320/estrutura.jpeg)]()
 
 Figura 1: template HTML5 Boilerplate
+
+
+O HTML5 Boilerplate possui um template que facilita a construção de websites e aplicações frontend. O Boilerplate facilita as atividades corriqueiras, como criação de estrutura básica do código e organização dos arquivos. Com o Normalizer, Media Queries, Jquery, modernizr, google analytics e diversos outros recursos, a criação e edição de páginas web se tornou muito mais simples, evitando atividades corriqueiras que antes tomavam tempo do desenvolvedor.
 
 ###CSS
 O diretório deve conter todos os arquivos CSS do seu site, por padrão ele já inclui alguns arquivos iniciais.
